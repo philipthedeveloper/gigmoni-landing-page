@@ -1,0 +1,26 @@
+.you {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+}
+.get {
+  display: none;
+}
+/* sx={{ display: "flex" }} */
+@media (max-width: 700px) {
+  .get {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 480px) {
+  .get {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+  }
+}

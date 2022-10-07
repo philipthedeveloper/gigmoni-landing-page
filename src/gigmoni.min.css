@@ -1,0 +1,91 @@
+/* fonts */
+.poppins-regular {
+    font-family: poppins-regular;
+}
+
+.poppins-semibold {
+    font-family: poppins-semibold;
+}
+
+/* border radius */
+.bd-radius-20 {
+    border-radius: 20px;
+}
+
+.bd-radius-10 {
+    border-radius: 10px;
+}
+
+/* paddings */
+.padding-block-0 {
+    padding-block: 0px;
+}
+
+/* font sizes */
+
+.font-size-60 {
+    font-size: 60px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* background colors */
+.bg-color-purple{
+    background-color: #5D53D2;
+}
+
+/* width */
+.width-fit-parent-box{
+    width: 100%;
+}
+
+
+.home-typewriter-height {
+    height: '20rem';
+}
+
+@media screen and (max-width: 450px) {
+   .home-typewriter-height {
+        height: '33rem';
+   }
+}
+
+
+/* text colors */
+.payoneer-gradient {
+	background: linear-gradient(
+        to right,
+         #ff4800 2.49%,
+    #dd53c6 28.27%,
+    #0092f2 48.92%,
+    #35db6c 79.37%,
+    #e3d000 104.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.paypal-gradient {
+	background: linear-gradient(
+        to right,
+        #003087 2.49%,
+        #003087 28.27%,
+        #003087 48.92%,
+        #009cde 79.37%,
+        #009cde 104.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.skrill-gradient {
+	background: linear-gradient(
+        to right,
+        #6b195f 2.49%, #4c255b 104.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
